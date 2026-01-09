@@ -1,0 +1,276 @@
+\begin{thebibliography}{52}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.]{achiam2023gpt}
+Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.~L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., et~al.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}, 2023.
+
+\bibitem[Austin et~al.(2021)Austin, Odena, Nye, Bosma, Michalewski, Dohan, Jiang, Cai, Terry, Le, et~al.]{austin2021mbpp}
+Austin, J., Odena, A., Nye, M., Bosma, M., Michalewski, H., Dohan, D., Jiang, E., Cai, C., Terry, M., Le, Q., et~al.
+\newblock Program synthesis with large language models.
+\newblock \emph{arXiv preprint arXiv:2108.07732}, 2021.
+
+\bibitem[Beck et~al.(2023)Beck, Jackson, Vuorio, and Whiteson]{beck2023bias-hyperinit}
+Beck, J., Jackson, M.~T., Vuorio, R., and Whiteson, S.
+\newblock Hypernetworks in meta-reinforcement learning.
+\newblock In \emph{Conference on Robot Learning}, pp.\  1478--1487. PMLR, 2023.
+
+\bibitem[BehnamGhader et~al.(2024)BehnamGhader, Adlakha, Mosbach, Bahdanau, Chapados, and Reddy]{llm2vec}
+BehnamGhader, P., Adlakha, V., Mosbach, M., Bahdanau, D., Chapados, N., and Reddy, S.
+\newblock {LLM2V}ec: Large language models are secretly powerful text encoders.
+\newblock In \emph{First Conference on Language Modeling}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=IW1PR7vEBf}.
+
+\bibitem[Bisk et~al.(2020)Bisk, Zellers, Bras, Gao, and Choi]{Bisk2020piqa}
+Bisk, Y., Zellers, R., Bras, R.~L., Gao, J., and Choi, Y.
+\newblock Piqa: Reasoning about physical commonsense in natural language.
+\newblock In \emph{Thirty-Fourth AAAI Conference on Artificial Intelligence}, 2020.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan, Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess, Clark, Berner, McCandlish, Radford, Sutskever, and Amodei]{icl}
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.~D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray, S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever, I., and Amodei, D.
+\newblock Language models are few-shot learners.
+\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H. (eds.), \emph{Advances in Neural Information Processing Systems}, volume~33, pp.\  1877--1901. Curran Associates, Inc., 2020.
+\newblock URL \url{https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf}.
+
+\bibitem[Br{\"u}el-Gabrielsson et~al.(2024)Br{\"u}el-Gabrielsson, Zhu, Bhardwaj, Choshen, Greenewald, Yurochkin, and Solomon]{bruel2024compress_then_serve}
+Br{\"u}el-Gabrielsson, R., Zhu, J., Bhardwaj, O., Choshen, L., Greenewald, K., Yurochkin, M., and Solomon, J.
+\newblock Compress then serve: Serving thousands of lora adapters with little overhead.
+\newblock \emph{arXiv preprint arXiv:2407.00066}, 2024.
+
+\bibitem[Chen et~al.(2021)Chen, Tworek, Jun, Yuan, de~Oliveira~Pinto, Kaplan, Edwards, Burda, Joseph, Brockman, Ray, Puri, Krueger, Petrov, Khlaaf, Sastry, Mishkin, Chan, Gray, Ryder, Pavlov, Power, Kaiser, Bavarian, Winter, Tillet, Such, Cummings, Plappert, Chantzis, Barnes, Herbert-Voss, Guss, Nichol, Paino, Tezak, Tang, Babuschkin, Balaji, Jain, Saunders, Hesse, Carr, Leike, Achiam, Misra, Morikawa, Radford, Knight, Brundage, Murati, Mayer, Welinder, McGrew, Amodei, McCandlish, Sutskever, and Zaremba]{chen2021humaneval}
+Chen, M., Tworek, J., Jun, H., Yuan, Q., de~Oliveira~Pinto, H.~P., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., Ryder, N., Pavlov, M., Power, A., Kaiser, L., Bavarian, M., Winter, C., Tillet, P., Such, F.~P., Cummings, D., Plappert, M., Chantzis, F., Barnes, E., Herbert-Voss, A., Guss, W.~H., Nichol, A., Paino, A., Tezak, N., Tang, J., Babuschkin, I., Balaji, S., Jain, S., Saunders, W., Hesse, C., Carr, A.~N., Leike, J., Achiam, J., Misra, V., Morikawa, E., Radford, A., Knight, M., Brundage, M., Murati, M., Mayer, K., Welinder, P., McGrew, B., Amodei, D., McCandlish, S., Sutskever, I., and Zaremba, W.
+\newblock Evaluating large language models trained on code, 2021.
+
+\bibitem[Clark et~al.(2019)Clark, Lee, Chang, Kwiatkowski, Collins, and Toutanova]{clark2019boolq}
+Clark, C., Lee, K., Chang, M.-W., Kwiatkowski, T., Collins, M., and Toutanova, K.
+\newblock Boolq: Exploring the surprising difficulty of natural yes/no questions.
+\newblock \emph{arXiv preprint arXiv:1905.10044}, 2019.
+
+\bibitem[Clark et~al.(2018)Clark, Cowhey, Etzioni, Khot, Sabharwal, Schoenick, and Tafjord]{allenai:arc}
+Clark, P., Cowhey, I., Etzioni, O., Khot, T., Sabharwal, A., Schoenick, C., and Tafjord, O.
+\newblock Think you have solved question answering? try arc, the ai2 reasoning challenge.
+\newblock \emph{arXiv:1803.05457v1}, 2018.
+
+\bibitem[Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser, Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman]{cobbe2021gsm8k}
+Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert, M., Tworek, J., Hilton, J., Nakano, R., Hesse, C., and Schulman, J.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}, 2021.
+
+\bibitem[Deb et~al.(2022)Deb, Awadallah, and Zheng]{deb-etal-2022-hnet-lm}
+Deb, B., Awadallah, A.~H., and Zheng, G.
+\newblock Boosting natural language generation from instructions with meta-learning.
+\newblock In Goldberg, Y., Kozareva, Z., and Zhang, Y. (eds.), \emph{Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing}, pp.\  6792--6808, Abu Dhabi, United Arab Emirates, December 2022. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2022.emnlp-main.456}.
+\newblock URL \url{https://aclanthology.org/2022.emnlp-main.456}.
+
+\bibitem[Dettmers et~al.(2022)Dettmers, Lewis, Belkada, and Zettlemoyer]{dettmers2022gpt3}
+Dettmers, T., Lewis, M., Belkada, Y., and Zettlemoyer, L.
+\newblock Gpt3. int8 (): 8-bit matrix multiplication for transformers at scale.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 30318--30332, 2022.
+
+\bibitem[Digre \& Brennan(2012)Digre and Brennan]{digre2012shedding}
+Digre, K.~B. and Brennan, K.
+\newblock Shedding light on photophobia.
+\newblock \emph{Journal of Neuro-ophthalmology}, 32\penalty0 (1):\penalty0 68--81, 2012.
+
+\bibitem[Dong et~al.(2024)Dong, Li, Dai, Zheng, Ma, Li, Xia, Xu, Wu, Chang, et~al.]{dong2024icl_survey}
+Dong, Q., Li, L., Dai, D., Zheng, C., Ma, J., Li, R., Xia, H., Xu, J., Wu, Z., Chang, B., et~al.
+\newblock A survey on in-context learning.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, pp.\  1107--1128, 2024.
+
+\bibitem[Dubey et~al.(2024)Dubey, Jauhri, Pandey, Kadian, Al-Dahle, Letman, Mathur, Schelten, Yang, Fan, et~al.]{dubey2024llama}
+Dubey, A., Jauhri, A., Pandey, A., Kadian, A., Al-Dahle, A., Letman, A., Mathur, A., Schelten, A., Yang, A., Fan, A., et~al.
+\newblock The llama 3 herd of models.
+\newblock \emph{arXiv preprint arXiv:2407.21783}, 2024.
+
+\bibitem[Gururangan et~al.(2020)Gururangan, Marasovi{\'c}, Swayamdipta, Lo, Beltagy, Downey, and Smith]{gururangan2020don}
+Gururangan, S., Marasovi{\'c}, A., Swayamdipta, S., Lo, K., Beltagy, I., Downey, D., and Smith, N.~A.
+\newblock Don't stop pretraining: Adapt language models to domains and tasks.
+\newblock \emph{arXiv preprint arXiv:2004.10964}, 2020.
+
+\bibitem[Ha et~al.(2016)Ha, Dai, and Le]{ha2016hypernetworks}
+Ha, D., Dai, A., and Le, Q.~V.
+\newblock Hypernetworks.
+\newblock \emph{arXiv preprint arXiv:1609.09106}, 2016.
+
+\bibitem[He et~al.(2022)He, Zheng, Tay, Gupta, Du, Aribandi, Zhao, Li, Chen, Metzler, et~al.]{he2022hyperprompt}
+He, Y., Zheng, S., Tay, Y., Gupta, J., Du, Y., Aribandi, V., Zhao, Z., Li, Y., Chen, Z., Metzler, D., et~al.
+\newblock Hyperprompt: Prompt-based task-conditioning of transformers.
+\newblock In \emph{International conference on machine learning}, pp.\  8678--8690. PMLR, 2022.
+
+\bibitem[Hu et~al.(2022)Hu, yelong shen, Wallis, Allen-Zhu, Li, Wang, Wang, and Chen]{hu2022lora}
+Hu, E.~J., yelong shen, Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., and Chen, W.
+\newblock Lo{RA}: Low-rank adaptation of large language models.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=nZeVKeeFYf9}.
+
+\bibitem[Ivison \& Peters(2022)Ivison and Peters]{ivison2022hyperdecoders}
+Ivison, H. and Peters, M.~E.
+\newblock Hyperdecoders: Instance-specific decoders for multi-task nlp.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2022}, pp.\  1715--1730, 2022.
+
+\bibitem[Ivison et~al.(2023)Ivison, Bhagia, Wang, Hajishirzi, and Peters]{ivison2023hint}
+Ivison, H., Bhagia, A., Wang, Y., Hajishirzi, H., and Peters, M.~E.
+\newblock Hint: Hypernetwork instruction tuning for efficient zero-and few-shot generalisation.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\  11272--11288, 2023.
+
+\bibitem[Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford, Chaplot, Casas, Bressand, Lengyel, Lample, Saulnier, et~al.]{jiang2023mistral}
+Jiang, A.~Q., Sablayrolles, A., Mensch, A., Bamford, C., Chaplot, D.~S., Casas, D. d.~l., Bressand, F., Lengyel, G., Lample, G., Saulnier, L., et~al.
+\newblock Mistral 7b.
+\newblock \emph{arXiv preprint arXiv:2310.06825}, 2023.
+
+\bibitem[Keisuke et~al.(2019)Keisuke, Ronan, Chandra, and Yejin]{ai2:winogrande}
+Keisuke, S., Ronan, L.~B., Chandra, B., and Yejin, C.
+\newblock Winogrande: An adversarial winograd schema challenge at scale.
+\newblock 2019.
+
+\bibitem[Kim et~al.(2024)Kim, Sasaki, Hoshino, and Honda]{kim2024cond_lora}
+Kim, H., Sasaki, S., Hoshino, S., and Honda, U.
+\newblock A single linear layer yields task-adapted low-rank matrices.
+\newblock \emph{arXiv preprint arXiv:2403.14946}, 2024.
+
+\bibitem[Kopiczko et~al.(2024)Kopiczko, Blankevoort, and Asano]{kopiczko2024vera}
+Kopiczko, D.~J., Blankevoort, T., and Asano, Y.~M.
+\newblock Ve{RA}: Vector-based random matrix adaptation.
+\newblock In \emph{The Twelfth International Conference on Learning Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=NjNfLdxr3A}.
+
+\bibitem[Korthikanti et~al.(2023)Korthikanti, Casper, Lym, McAfee, Andersch, Shoeybi, and Catanzaro]{korthikanti2023reducing}
+Korthikanti, V.~A., Casper, J., Lym, S., McAfee, L., Andersch, M., Shoeybi, M., and Catanzaro, B.
+\newblock Reducing activation recomputation in large transformer models.
+\newblock \emph{Proceedings of Machine Learning and Systems}, 5:\penalty0 341--353, 2023.
+
+\bibitem[Lewis(2019)]{lewis2019bart}
+Lewis, M.
+\newblock Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension.
+\newblock \emph{arXiv preprint arXiv:1910.13461}, 2019.
+
+\bibitem[Li et~al.(2023)Li, Zhang, Zhang, Long, Xie, and Zhang]{li2023towards}
+Li, Z., Zhang, X., Zhang, Y., Long, D., Xie, P., and Zhang, M.
+\newblock Towards general text embeddings with multi-stage contrastive learning.
+\newblock \emph{arXiv preprint arXiv:2308.03281}, 2023.
+
+\bibitem[Liu et~al.(2023)Liu, Xia, Wang, and Zhang]{evalplus}
+Liu, J., Xia, C.~S., Wang, Y., and Zhang, L.
+\newblock Is your code generated by chat{GPT} really correct? rigorous evaluation of large language models for code generation.
+\newblock In \emph{Thirty-seventh Conference on Neural Information Processing Systems}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=1qvx610Cu7}.
+
+\bibitem[Lv et~al.(2024)Lv, Li, Zhang, Chen, Qi, Zhang, and Zheng]{Lv2024hyperlora-few-shot}
+Lv, C., Li, L., Zhang, S., Chen, G., Qi, F., Zhang, N., and Zheng, H.-T.
+\newblock Hyperlora: Efficient cross-task generalization via constrained low-rank adapters generation.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2024}, pp.\  16376--16393, 2024.
+
+\bibitem[Mahabadi et~al.(2021)Mahabadi, Ruder, Dehghani, and Henderson]{mahabadi2021parameter}
+Mahabadi, R.~K., Ruder, S., Dehghani, M., and Henderson, J.
+\newblock Parameter-efficient multi-task fine-tuning for transformers via shared hypernetworks.
+\newblock \emph{arXiv preprint arXiv:2106.04489}, 2021.
+
+\bibitem[Mihaylov et~al.(2018)Mihaylov, Clark, Khot, and Sabharwal]{OpenBookQA2018}
+Mihaylov, T., Clark, P., Khot, T., and Sabharwal, A.
+\newblock Can a suit of armor conduct electricity? a new dataset for open book question answering.
+\newblock In \emph{EMNLP}, 2018.
+
+\bibitem[Mu et~al.(2024)Mu, Li, and Goodman]{mu2024gisting}
+Mu, J., Li, X., and Goodman, N.
+\newblock Learning to compress prompts with gist tokens.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2024.
+
+\bibitem[Ortiz-Barajas et~al.(2024)Ortiz-Barajas, Gomez-Adorno, and Solorio]{ortiz2024hyperloader}
+Ortiz-Barajas, J.-G., Gomez-Adorno, H., and Solorio, T.
+\newblock Hyperloader: Integrating hypernetwork-based lora and adapter layers into multi-task transformers for sequence labelling.
+\newblock \emph{arXiv preprint arXiv:2407.01411}, 2024.
+
+\bibitem[Ostapenko et~al.(2024)Ostapenko, Su, Ponti, Charlin, Roux, Pereira, Caccia, and Sordoni]{ostapenko2024towards_modular_llms}
+Ostapenko, O., Su, Z., Ponti, E.~M., Charlin, L., Roux, N.~L., Pereira, M., Caccia, L., and Sordoni, A.
+\newblock Towards modular llms by building and reusing a library of loras.
+\newblock \emph{arXiv preprint arXiv:2405.11157}, 2024.
+
+\bibitem[Phang et~al.(2023)Phang, Mao, He, and Chen]{phang2023hypertuning}
+Phang, J., Mao, Y., He, P., and Chen, W.
+\newblock Hypertuning: Toward adapting large language models without back-propagation.
+\newblock In \emph{International Conference on Machine Learning}, pp.\  27854--27875. PMLR, 2023.
+
+\bibitem[Raffel et~al.(2020)Raffel, Shazeer, Roberts, Lee, Narang, Matena, Zhou, Li, and Liu]{raffel2020t5}
+Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., Zhou, Y., Li, W., and Liu, P.~J.
+\newblock Exploring the limits of transfer learning with a unified text-to-text transformer.
+\newblock \emph{Journal of machine learning research}, 21\penalty0 (140):\penalty0 1--67, 2020.
+
+\bibitem[Schmidhuber(1997)]{schmidhuber1997discovering}
+Schmidhuber, J.
+\newblock Discovering neural nets with low kolmogorov complexity and high generalization capability.
+\newblock \emph{Neural Networks}, 10\penalty0 (5):\penalty0 857--873, 1997.
+
+\bibitem[Schug et~al.(2024)Schug, Kobayashi, Akram, Sacramento, and Pascanu]{schug2024attention}
+Schug, S., Kobayashi, S., Akram, Y., Sacramento, J., and Pascanu, R.
+\newblock Attention as a hypernetwork.
+\newblock \emph{arXiv preprint arXiv:2406.05816}, 2024.
+
+\bibitem[Stanley \& Miikkulainen(2003)Stanley and Miikkulainen]{stanley2003taxonomy}
+Stanley, K.~O. and Miikkulainen, R.
+\newblock A taxonomy for artificial embryogeny.
+\newblock \emph{Artificial life}, 9\penalty0 (2):\penalty0 93--130, 2003.
+
+\bibitem[Tay et~al.(2021)Tay, Dehghani, Rao, Fedus, Abnar, Chung, Narang, Yogatama, Vaswani, and Metzler]{tay2021scale}
+Tay, Y., Dehghani, M., Rao, J., Fedus, W., Abnar, S., Chung, H.~W., Narang, S., Yogatama, D., Vaswani, A., and Metzler, D.
+\newblock Scale efficiently: Insights from pre-training and fine-tuning transformers.
+\newblock \emph{arXiv preprint arXiv:2109.10686}, 2021.
+
+\bibitem[Team et~al.(2024)Team, Riviere, Pathak, Sessa, Hardin, Bhupatiraju, Hussenot, Mesnard, Shahriari, Ram{\'e}, et~al.]{team2024gemma}
+Team, G., Riviere, M., Pathak, S., Sessa, P.~G., Hardin, C., Bhupatiraju, S., Hussenot, L., Mesnard, T., Shahriari, B., Ram{\'e}, A., et~al.
+\newblock Gemma 2: Improving open language models at a practical size.
+\newblock \emph{arXiv preprint arXiv:2408.00118}, 2024.
+
+\bibitem[Von~Oswald et~al.(2019)Von~Oswald, Henning, Grewe, and Sacramento]{von2019continual}
+Von~Oswald, J., Henning, C., Grewe, B.~F., and Sacramento, J.
+\newblock Continual learning with hypernetworks.
+\newblock \emph{arXiv preprint arXiv:1906.00695}, 2019.
+
+\bibitem[Wang et~al.(2022)Wang, Mishra, Alipoormolabashi, Kordi, Mirzaei, Naik, Ashok, Dhanasekaran, Arunkumar, Stap, et~al.]{wang2022sni}
+Wang, Y., Mishra, S., Alipoormolabashi, P., Kordi, Y., Mirzaei, A., Naik, A., Ashok, A., Dhanasekaran, A.~S., Arunkumar, A., Stap, D., et~al.
+\newblock Super-naturalinstructions: Generalization via declarative instructions on 1600+ nlp tasks.
+\newblock In \emph{Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing}, pp.\  5085--5109, 2022.
+
+\bibitem[Wei et~al.(2021)Wei, Bosma, Zhao, Guu, Yu, Lester, Du, Dai, and Le]{wei2021finetuned}
+Wei, J., Bosma, M., Zhao, V.~Y., Guu, K., Yu, A.~W., Lester, B., Du, N., Dai, A.~M., and Le, Q.~V.
+\newblock Finetuned language models are zero-shot learners.
+\newblock \emph{arXiv preprint arXiv:2109.01652}, 2021.
+
+\bibitem[Wurtz et~al.(2011)Wurtz, Joiner, and Berman]{wurtz2011neuronal}
+Wurtz, R.~H., Joiner, W.~M., and Berman, R.~A.
+\newblock Neuronal mechanisms for visual stability: progress and problems.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological Sciences}, 366\penalty0 (1564):\penalty0 492--503, 2011.
+
+\bibitem[Xiao et~al.(2023)Xiao, Held, Liu, and Yang]{xiao-etal-2023-hyperlora-dialect}
+Xiao, Z., Held, W., Liu, Y., and Yang, D.
+\newblock Task-agnostic low-rank adapters for unseen {E}nglish dialects.
+\newblock In Bouamor, H., Pino, J., and Bali, K. (eds.), \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, pp.\  7857--7870, Singapore, December 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.487}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.487}.
+
+\bibitem[Zellers et~al.(2019)Zellers, Holtzman, Bisk, Farhadi, and Choi]{zellers2019hellaswag}
+Zellers, R., Holtzman, A., Bisk, Y., Farhadi, A., and Choi, Y.
+\newblock Hellaswag: Can a machine really finish your sentence?
+\newblock In \emph{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}, 2019.
+
+\bibitem[Zhang et~al.(2018)Zhang, Ren, and Urtasun]{zhang2018graph}
+Zhang, C., Ren, M., and Urtasun, R.
+\newblock Graph hypernetworks for neural architecture search.
+\newblock \emph{arXiv preprint arXiv:1810.05749}, 2018.
+
+\bibitem[Zhang et~al.(2024)Zhang, Zhang, Long, Xie, Dai, Tang, Lin, Yang, Xie, Huang, et~al.]{zhang2024mgte}
+Zhang, X., Zhang, Y., Long, D., Xie, W., Dai, Z., Tang, J., Lin, H., Yang, B., Xie, P., Huang, F., et~al.
+\newblock mgte: Generalized long-context text representation and reranking models for multilingual text retrieval.
+\newblock \emph{arXiv preprint arXiv:2407.19669}, 2024.
+
+\bibitem[Zhao et~al.(2024)Zhao, Wang, Abid, Angus, Garg, Kinnison, Sherstinsky, Molino, Addair, and Rishi]{zhao2024loraland}
+Zhao, J., Wang, T., Abid, W., Angus, G., Garg, A., Kinnison, J., Sherstinsky, A., Molino, P., Addair, T., and Rishi, D.
+\newblock Lora land: 310 fine-tuned llms that rival gpt-4, a technical report.
+\newblock \emph{arXiv preprint arXiv:2405.00732}, 2024.
+
+\end{thebibliography}

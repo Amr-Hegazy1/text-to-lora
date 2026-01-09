@@ -1,0 +1,31 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}alpha\PYGZus{}pattern\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}\PYGZcb{},}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}auto\PYGZus{}mapping\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}base\PYGZus{}model\PYGZus{}name\PYGZus{}or\PYGZus{}path\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}models/Mistral\PYGZhy{}7B\PYGZhy{}Instruct\PYGZhy{}v0.2\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}bias\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}none\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}fan\PYGZus{}in\PYGZus{}fan\PYGZus{}out\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}inference\PYGZus{}mode\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{true}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}init\PYGZus{}lora\PYGZus{}weights\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{true}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}layer\PYGZus{}replication\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}layers\PYGZus{}pattern\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}layers\PYGZus{}to\PYGZus{}transform\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}loftq\PYGZus{}config\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}\PYGZcb{},}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}lora\PYGZus{}alpha\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+m+mi}{16}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}lora\PYGZus{}dropout\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+m+mf}{0.05}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}megatron\PYGZus{}config\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}megatron\PYGZus{}core\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}megatron.core\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}modules\PYGZus{}to\PYGZus{}save\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}peft\PYGZus{}type\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}LORA\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}r\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}rank\PYGZus{}pattern\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{\PYGZob{}\PYGZcb{},}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}revision\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}target\PYGZus{}modules\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{[}
+\PYG{+w}{    }\PYG{l+s+s2}{\PYGZdq{}q\PYGZus{}proj\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{l+s+s2}{\PYGZdq{}v\PYGZus{}proj\PYGZdq{}}
+\PYG{+w}{  }\PYG{p}{],}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}task\PYGZus{}type\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}CAUSAL\PYGZus{}LM\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}use\PYGZus{}dora\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{false}\PYG{p}{,}
+\PYG{+w}{  }\PYG{n+nt}{\PYGZdq{}use\PYGZus{}rslora\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kc}{true}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

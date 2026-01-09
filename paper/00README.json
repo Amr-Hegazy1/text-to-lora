@@ -1,0 +1,40 @@
+{
+   "stamp" : true,
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "main.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "friendly.pygstyle"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "icml2025.bst"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "listing1.pygtex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "listing2.pygtex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "listing3.pygtex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "listing4.pygtex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "main.bib"
+      }
+   ],
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

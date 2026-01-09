@@ -1,0 +1,47 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{OQA\PYGZus{}TEMPLATE} \PYG{o}{=} \PYG{p}{(}
+    \PYG{l+s+s2}{\PYGZdq{}Complete the following passage or answer the question by choosing the correct choice.}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}question\PYGZus{}stem\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}choices[label][0]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][0]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+si}{\PYGZob{}choices[label][1]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][1]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}choices[label][2]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][2]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+si}{\PYGZob{}choices[label][3]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][3]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}You must respond with the letter corresponding to the correct choice (A,B,C,D)\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{} without any explanation.\PYGZdq{}}
+\PYG{p}{)}
+\PYG{n}{ARC\PYGZus{}TEMPLATE} \PYG{o}{=} \PYG{p}{(}
+    \PYG{l+s+s2}{\PYGZdq{}Answer the question below by choosing the correct choice.}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}question\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}choices[label][0]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][0]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+si}{\PYGZob{}choices[label][1]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][1]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}choices[label][2]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][2]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+si}{\PYGZob{}choices[label][3]\PYGZcb{}}\PYG{l+s+s2}{: }\PYG{l+s+si}{\PYGZob{}choices[text][3]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}You must respond with the letter corresponding to the correct choice without any explanation.\PYGZdq{}}
+\PYG{p}{)}
+\PYG{n}{HSWAG\PYGZus{}TEMPLATE} \PYG{o}{=} \PYG{p}{(}
+    \PYG{l+s+s2}{\PYGZdq{}You are provided with an incomplete passage below as well as 4 choices of continuation \PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}with only one of them being the correct ending. \PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}Treat the endings as being labelled 0, 1, 2, 3 in order.}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}Passage: }\PYG{l+s+si}{\PYGZob{}ctx\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}0: }\PYG{l+s+si}{\PYGZob{}endings[0]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}1: }\PYG{l+s+si}{\PYGZob{}endings[1]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}2: }\PYG{l+s+si}{\PYGZob{}endings[2]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}3: }\PYG{l+s+si}{\PYGZob{}endings[3]\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}You must respond with the only number corresponding to the correct ending (0,1,2,3)\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{} for the passage without any explanation.\PYGZdq{}}
+\PYG{p}{)}
+\PYG{n}{PIQA\PYGZus{}TEMPLATE} \PYG{o}{=} \PYG{p}{(}
+    \PYG{l+s+s2}{\PYGZdq{}Choose the option that either answers the question, completes the sentence,\PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{} or solves the problem. \PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}Pay attention to the properties of the objects in the question and how they interact with \PYGZdq{}}
+    \PYG{l+s+s2}{\PYGZdq{}each other. \PYGZdq{}}
+    \PYG{l+s+s1}{\PYGZsq{}If both options are correct, choose the one that is more convenient or more common.}
+    \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{p}{\PYGZob{}}\PYG{n}{goal}\PYG{p}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{0: }\PYG{l+s+si}{\PYGZob{}sol1\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{1: }\PYG{l+s+si}{\PYGZob{}sol2\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{l+s+s2}{    \PYGZdq{}You must respond with either `0` or `1` without any explanation.\PYGZdq{}}
+\PYG{l+s+s2}{)}
+\PYG{l+s+s2}{WINOGRANDE\PYGZus{}TEMPLATE = (}
+\PYG{l+s+s2}{    \PYGZdq{}Given the following situation:}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+si}{\PYGZob{}sentence\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{Which option is correct?}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{l+s+s2}{    \PYGZdq{}Option 1: }\PYG{l+s+si}{\PYGZob{}option1\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{Option 2: }\PYG{l+s+si}{\PYGZob{}option2\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{l+s+s2}{    \PYGZdq{}You must respond with either `1` or `2` without any explanation.\PYGZdq{}}
+\PYG{l+s+s2}{)}
+\PYG{l+s+s2}{BOOLQ\PYGZus{}TEMPLATE = (}
+\PYG{l+s+s2}{    \PYGZdq{}}\PYG{l+s+si}{\PYGZob{}passage\PYGZcb{}}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{Question: }\PYG{l+s+si}{\PYGZob{}question\PYGZcb{}}\PYG{l+s+s2}{?}\PYG{l+s+se}{\PYGZbs{}n\PYGZbs{}n}\PYG{l+s+s2}{Please answer with either `true` or `false` \PYGZdq{}}
+\PYG{l+s+s2}{    \PYGZdq{}without any explanation.\PYGZdq{}}
+\PYG{l+s+s2}{)}
+\end{Verbatim}
